@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row navigate">
+                <ul class="nav col">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about-us">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="create.html">Create</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <ul class="nav login">
+                    <li class="nav-item">
+                        <a class="nav-link login" href="#" data-toggle="modal" data-target="#myModal">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link sign active" href="sign.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content p-4">
+                    <button type="button" class="close ml-auto p-1" data-dismiss="modal">&times;</button>
+                    <img src="image/logo.png" alt="" class="image4 mx-auto">
+
+                    <form class="container px-5">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                    </form>
+                    <button type="submit" class="btn btn-primary mx-auto">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="sign-up container-fluid py-5">
+            <div class="box-1 column text-center my-auto mx-auto">
+                <img src="image/logo.png" alt="" class="image4">
+                <h1>SIGN UP</h1>
+                <form class="container px-5">
+                    <div class="form-group row">
+                        <label for="name">Nama</label>
+                        <br>
+                        <input type="name" class="form-control nama" id="name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form row">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <br>
+                        <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group row">
+                        <label for="name">Nomor HP</label>
+                        <br>
+                        <input type="name" class="form-control hp" id="name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group row">
+                        <label for="exampleInputPassword1">Password</label>
+                        <br>
+                        <input type="password" class="form-control password" id="exampleInputPassword1">
+                    </div>
+                </form>
+                <button type="submit" class="btn btn-primary mx-auto">Sign-Up</button>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+main{
+    background-color: #F6F1EC;
+}
+.image1{
+    height: 90vh;
+}
+.nav{
+    background-color: #ffff;
+    padding: 0px 20px;
+}
+.navigate{
+    padding: 0px 30px;
+    background: #ffff;
+}
+.nav li a{
+    color: #47525E;
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 20px;
+    padding: 15px 15px;
+    background: #ffff;
+}
+.nav li a:hover, .nav-link.active{
+    background: #E6D9CC;
+}
+
+.desc h2{
+    font-family: Chewy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 84px;
+
+    color: #A26C3E;
+}
+.desc p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 25px;
+
+    color: #323232;
+}
+.btn.join{
+    text-decoration: none;
+    background: #D4BA99;
+    border-radius: 8px;
+    border: 3px solid #D4BA99;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 20px;
+    padding: 5px 15px;
+
+    color: #FFFFFF;
+}
+.btn.join:hover{
+    background: #ffff;
+    color: #D4BA99;
+    border: 3px solid #ffff;
+    box-shadow: 3px 6px 10px rgb( 0, 0, 0 ,0.25);
+}
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+.how h2, .about h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 50px;
+    color: #A26C3E;
+}
+.how p, .about p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 20px;
+
+    color: #D4BA99;
+}
+.about-us{
+    padding: 200px 0px;
+}
+footer{
+    background: #C4C4C4;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+
+    color: #E5E5E5;
+}
+.image2{
+    width: 30px;
+    margin-right: 5px;
+}
+.category{
+    color: #47525E;
+    font-family: Chewy;
+    font-size: 38px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+}
+
+.item-a{
+    background-color: #b17761;
+    width: 170px;
+    height: 170px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Chewy;
+    font-size: 28px;
+    border-radius: 8px;
+    margin: 30px 35px;
+}
+.item{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+.item-a:hover{
+    background-color: #fff;
+    color: #b17761;
+}
+.create{
+    min-height: 90vh;
+}
+.image3{
+    height: 120vh;
+}
+.image4{
+    width: 100px;
+}
+.sign-up{
+    height: 93vh;
+}
+.box-1{
+    width: 400px;
+}
+input.search{
+    width: 300px;
+    height: 40px;
+    background-color: #D49880;
+    border-radius: 5px;
+    border: 0px solid #ebdace;
+    color: #fff;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    color: #fff;
+ }
+
+ .category{
+    color: #47525E;
+    font-family: Chewy;
+    font-size: 38px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+}
+ .item-ad{
+    background-color: #b17761;
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Chewy;
+    font-size: 24px;
+    border-radius: 8px;
+    margin: 30px 5px;
+}
+.itemd{
+    text-align: center;
+}
+.item-ad:hover{
+    background-color: #fff;
+    color: #b17761;
+}
+.btncolor{
+    background-color: #b17761;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Chewy;
+    font-size: 24px;
+    border-radius: 8px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.btncolor:hover{
+    background-color: #fff;
+    color: #b17761;
+}
+
+.judulsave{
+    color: #47525E;
+    font-family: Chewy;
+    font-size: 33px;
+}
+
+.design{
+    background-color: #FFFFFF;
+    width: 900px;
+    height: 455px;
+}
+
+.btncolorsave{
+    background-color: #b17761;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Chewy;
+    font-size: 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btncolorsave:hover{
+    background-color: #fff;
+    color: #b17761;
+}
